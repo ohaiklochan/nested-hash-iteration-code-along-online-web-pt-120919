@@ -1,6 +1,6 @@
 require 'pry'
 
-def people
+
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -14,7 +14,7 @@ def people
       favorite_ice_cream_flavors: ["cookie dough", "mint chip"]
     }
   }
-end 
+
 
 def remove_strawberry(contacts)
   contacts.each do |person, contact_details_hash|
