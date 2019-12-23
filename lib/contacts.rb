@@ -1,5 +1,6 @@
 require 'pry'
 
+def contacts
 contacts = {
   "Jon Snow" => {
     name: "Jon",
@@ -13,7 +14,7 @@ contacts = {
     favorite_ice_cream_flavors: ["cookie dough", "mint chip"]
   }
 }
- 
+end 
 
 
 def remove_strawberry(contacts)
