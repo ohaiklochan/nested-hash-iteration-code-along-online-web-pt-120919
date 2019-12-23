@@ -1,6 +1,6 @@
 require 'pry'
 
-def contacts
+def people
   contacts = {
     "Jon Snow" => {
       name: "Jon",
